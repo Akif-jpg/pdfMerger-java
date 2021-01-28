@@ -1,6 +1,7 @@
 # pdfMerger-java
-This is a simple pdf Combine Application
+This is a simple pdf combine application
 Download Link: https://yadi.sk/d/lav1HXGd0bHk2Q
+
 You can merge your pdf files with this app.
 
 How do you use?
