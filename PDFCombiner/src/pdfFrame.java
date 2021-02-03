@@ -75,7 +75,7 @@ public class pdfFrame extends JFrame {
 	public void pdfFrame() {		
 		setResizable(false);
 		setBackground(Color.BLACK);
-		setIconImage(Toolkit.getDefaultToolkit().getImage("assets\\pdf.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("assets/pdf.png"));
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 470);
@@ -116,7 +116,7 @@ public class pdfFrame extends JFrame {
 		BufferedImage img; 
 		Image icon1 = null;
 		try {
-		img = ImageIO.read(new File("assets\\jigsaw.png"));
+		img = ImageIO.read(new File("assets/jigsaw.png"));
 		icon1 = img.getScaledInstance(25, 25, DO_NOTHING_ON_CLOSE);
 		}catch (IOException e) {
 			
